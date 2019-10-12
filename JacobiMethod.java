@@ -13,6 +13,7 @@ public static void main(String[] args) {
     static void solve(double[][] equation){
         double[] init={1,8,0};
         double eps=0.1;
+//      init  equation size
         int size = equation.length;
         double[] prevX = new double[size];
         prevX=init.clone();
